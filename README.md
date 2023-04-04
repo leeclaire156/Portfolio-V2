@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - [Node (REQUIRED)](#node-version-16---required-to-download-node-based-dependencies-ie-mongoose-and-express)
     - [dependencies (REQUIRED)](#dependencies---required)
 - [Usage](#usage)
-    -[Commands (Further Development Only)](#the-following-commands-are-for-further-development-only-and-come-from-react)
+    - [Commands (Further Development Only)](#the-following-commands-are-for-further-development-only-and-come-from-react)
 - [Credits](#credits)
 - [Questions](#questions)
 
