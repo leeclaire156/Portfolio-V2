@@ -132,7 +132,13 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Importing Google Fonts to CSS provided by [Tom](https://stackoverflow.com/users/158119/tom) on StackOverflow:<br></br>https://stackoverflow.com/questions/40769551/how-to-use-google-fonts-in-react-js
 
+* Coming Soon font provided by [Google Fonts](https://fonts.google.com/):<br></br>https://fonts.google.com/specimen/Fredericka+the+Great
+
+* Fredericka the Great font provided by [Google Fonts](https://fonts.google.com/):<br></br>https://fonts.google.com/specimen/Fredericka+the+Great
+
 * Placing footer at bottom of page information provided by [freeCodeCamp](https://www.freecodecamp.org/):<br></br>https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+
+* Importing images information provided by [Hawkeye Parker](https://stackoverflow.com/users/99717/hawkeye-parker) on StackedOverflow:<br></br>https://stackoverflow.com/questions/34582405/react-wont-load-local-images
 
 ## Questions
 
