@@ -1,4 +1,4 @@
-# Portfolio V2.0
+b# Portfolio V2.0
 
 ## Description
 
@@ -139,6 +139,22 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 * Placing footer at bottom of page information provided by [freeCodeCamp](https://www.freecodecamp.org/):<br></br>https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
 
 * Importing images information provided by [Hawkeye Parker](https://stackoverflow.com/users/99717/hawkeye-parker) on StackedOverflow:<br></br>https://stackoverflow.com/questions/34582405/react-wont-load-local-images
+
+* onBlur vs onChange react event listeners [Ruben Leija's blog Linguine Code](https://linguinecode.com/):<br></br>https://linguinecode.com/post/onblur-vs-onchange-react-text-inputs
+
+* onBlur information further provided by [pope_maverick](https://stackoverflow.com/users/3065781/pope-maverick) on Stacked Overflow:<br></br>https://stackoverflow.com/questions/71838444/show-validation-after-click-outside-the-input
+
+* Disabling text area property provided by [Donut](https://stackoverflow.com/users/121493/donut):<br></br>https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea
+
+* Text area rows information from How to Use a Multiline Text Area in ReactJS written by Gaurav Singhal on [Plural Sight](https://www.pluralsight.com/):<br></br>https://www.pluralsight.com/guides/how-to-use-multiline-text-area-in-reactjs
+
+* Creating Bold Text with CSS font-weight property information provided by [W3Schools](https://www.w3schools.com/default.asp):<br></br>https://www.w3schools.com/cssref/pr_font_weight.php
+
+* Email Validation Regex by [learnetto](https://github.com/learnetto):<br></br>https://github.com/learnetto/react-form-validation-demo/blob/master/src/Form.js
+
+* Validation messages based on [CodingComics's](https://www.youtube.com/@codingcomics) YouTube Video `Form Validation in React JS || Input Validation React JS || React Form Validation onSubmit || React`:<br></br>https://www.youtube.com/watch?v=rZpc7HkmF5Q
+
+* Tape CSS Code based on [Coding Artist's](https://www.youtube.com/@CodingArtist) YouTube Video `Washi Tape Notes With Pure CSS | HTML, CSS Tutorial`:<br></br>https://www.youtube.com/watch?v=2mYIh8-zgFQ&t=34s
 
 ## Questions
 

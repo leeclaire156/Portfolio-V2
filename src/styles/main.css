@@ -15,6 +15,10 @@ nav {
     background-color: var(--nav-background-color);
 }
 
+.active {
+    text-decoration: underline!important;
+}
+
 h1 {
     font-family: 'Fredericka the Great', cursive;
 }
@@ -33,6 +37,11 @@ h1 {
     background-position: -0.1rem -0.1rem;
 }
 
+.profileImg {
+    height: 15rem;
+    border: black .25rem solid;
+}
+
 /*Desktop layout*/
 @media screen and (min-width: 992px) {
     .button {
@@ -40,6 +49,47 @@ h1 {
         border: var(--text-color) 1px dashed;
         border-radius: 5px;
         margin-top: 5px;
+    }
+
+    /* Polaroid + Tape CSS starts below */
+    .active {
+        text-decoration: underline black;
+    }
+
+    .profileImg {
+        height: 15rem;
+        border: black .25rem solid;
+    }
+
+    .polaroid {
+        width: fit-content;
+        border: black .25rem solid;
+        padding: 1rem 1rem 4rem 1rem;
+        background-color: white;
+    }
+
+    .tape {
+        position: absolute;
+        height: 220px;
+        width: 60px;
+        border: 1px solid #00000048;
+        transform: rotate(-45deg);
+        background: #ffffff77
+    }
+
+    .tape1 {
+        bottom: 450px;
+        right: 550px;
+    }
+
+    .tape2 {
+        top: 25px;
+        right: 300px;
+    }
+
+    .aboutMePg {
+        display: flex;
+        flex: row;
     }
 }
 
@@ -56,6 +106,7 @@ footer {
     align-items: center;
 }
 
+/* Spaces the Footer icon links apart */
 footer>div>a {
     margin: 0 10px;
 }
