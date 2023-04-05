@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Fredericka+the+Great&display=swap');
+
+:root {
+    --nav-background-color: #DDE5F8;
+    --nav-text-color: #0A58CA;
+    --page-number-color: #cd0c0c;
+    --text-color: #202124;
+}
+
+* {
+    font-family: 'Coming Soon', cursive;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.main {
+    /* Grid paper CSS starts below */
+    height: 100vh;
+    margin: 0 auto;
+    /* Controls color of the boxes */
+    background-color: white;
+    /* First linear-gradient creates the horizontal lines in the grid pattern, second one creates the vertical lines */
+    background-image: linear-gradient(var(--nav-background-color) .1rem, transparent .1rem), linear-gradient(90deg, var(--nav-background-color) .1rem, transparent .1rem);
+    /* Controls size of the boxes */
+    background-size: 2.5rem 2.5rem;
+    /* Offsets the grid styling so it looks trimmed to the window */
+    background-position: -0.1rem -0.1rem;
+}
+
+/*Desktop layout*/
+@media screen and (min-width: 992px) {
+    .button {
+        background-color: transparent;
+        border: var(--text-color) 1px dashed;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+}
+
+footer {
+    background-color: var(--nav-background-color);
+    position: absolute;
+    /* Puts footer on bottom of page */
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}

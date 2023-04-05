@@ -6,6 +6,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Footer from './footer/Footer';
+import { Container } from 'react-bootstrap';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -29,13 +30,13 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='main'>
       {/* We are getting the currentPage from the active nav tab's state and giving it to the handlePageChange */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-      <div>
-        <Footer />
-      </div>
+      <Container>
+        {renderPage()}
+      </Container>
+      <Footer />
     </div>
   );
 }
