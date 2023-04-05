@@ -10,11 +10,11 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           <h1>Claire Lee</h1>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className="me-auto">
-              <Nav.Link href='#home'
+              {/* <Nav.Link href='#home'
                 onClick={() => handlePageChange('Home')}
                 className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                 Home
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link href='#about'
                 onClick={() => handlePageChange('About')}
                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
