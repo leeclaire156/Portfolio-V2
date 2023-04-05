@@ -126,6 +126,14 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Credit to initializing with React version 17.0.2 goes to [DanteDX](https://stackoverflow.com/users/12639918/dantedx) on StackOverflow:<br></br>https://stackoverflow.com/questions/71913692/module-not-found-error-cant-resolve-react-dom-client
 
+* React bootstrap responsive navbar information provided by [React Bootstrap](https://react-bootstrap.github.io/):<br></br>https://react-bootstrap.github.io/components/navbar/
+
+* DOC to PDF converter provided by [Adobe](https://www.adobe.com/):<br></br>https://www.adobe.com/acrobat/online/word-to-pdf.html
+
+* Importing Google Fonts to CSS provided by [Tom](https://stackoverflow.com/users/158119/tom) on StackOverflow:<br></br>https://stackoverflow.com/questions/40769551/how-to-use-google-fonts-in-react-js
+
+* Placing footer at bottom of page information provided by [freeCodeCamp](https://www.freecodecamp.org/):<br></br>https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+
 ## Questions
 
 If you have any questions, my GitHub profile is www.github.com/leeclaire156, and my email is lee.claire156@gmail.com.

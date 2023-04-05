@@ -1,60 +1,43 @@
 import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
-function NavTabs({ currentPage, handlePageChange }) {
+export default function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header>
-      <ul className="nav">
-        <li>
-          <a
-            href="#home"
-            onClick={() => handlePageChange('Home')}
-            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-          >
-            Home
-          </a>
-        </li>
-        <li>
-          <a
-            href="#about"
-            onClick={() => handlePageChange('About')}
-            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            href="#portfolio"
-            onClick={() => handlePageChange('Portfolio')}
-            // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-          >
-            Portfolio
-          </a>
-        </li>
-        <li>
-          <a
-            href="#contact"
-            onClick={() => handlePageChange('Contact')}
-            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-          >
-            Contact
-          </a>
-        </li>
-        <li>
-          <button className="button">
-            <a className="button" href="../assets/Lee_Claire_Resume.pdf" download="Lee_Claire_Resume.pdf">
-              Download Resume
-            </a>
-          </button>
-        </li>
-      </ul>
-    </header>
+      <Navbar collapseOnSelect expand='lg'>
+        <Container>
+          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Collapse id='basic-navbar-nav'>
+          <Nav className="me-auto">
+            <Nav.Link href='#home'
+              onClick={() => handlePageChange('Home')}
+              className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+              Home
+            </Nav.Link>
+            <Nav.Link href='#about'
+              onClick={() => handlePageChange('About')}
+              className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+              About
+            </Nav.Link>
+            <Nav.Link href='#portfolio'
+              onClick={() => handlePageChange('Portfolio')}
+              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+              Portfolio
+            </Nav.Link>
+            <Nav.Link href='#contact'
+              onClick={() => handlePageChange('Contact')}
+              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+              Contact
+            </Nav.Link>
+            <button className="button">
+              <a href="../assets/Lee_Claire_Resume.pdf" download="Lee_Claire_Resume.pdf">
+                Download Resume
+              </a>
+            </button>
+          </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </header >
   );
 }
-
-export default NavTabs;
