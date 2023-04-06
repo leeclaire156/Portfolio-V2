@@ -9,13 +9,13 @@ export default function Footer() {
         <footer>
             <div>
                 <a href="https://stackoverflow.com/users/21561625/leeclaire156/" target="_blank" rel="noreferrer">
-                    <img src={stackedOverflow192} height="50px" width="50px" />
+                    <img src={stackedOverflow192} height="50px" width="50px" alt="hand-drawn version of Stacked Overflow linked icon that lead's to Claire Lee's profile" />
                 </a>
                 <a href="https://github.com/leeclaire156/" target="_blank" rel="noreferrer">
-                    <img src={gitHub192} height="50px" width="50px" />
+                    <img src={gitHub192} height="50px" width="50px" alt="hand-drawn version of GitHub linked icon that lead's to Claire Lee's profile" />
                 </a>
                 <a href="https://www.linkedin.com/in/claire-lee-556b3a209/" target="_blank" rel="noreferrer">
-                    <img src={linkedIn192} height="50px" width="50px" />
+                    <img src={linkedIn192} height="50px" width="50px" alt="hand-drawn version of LinkedIn linked icon that lead's to Claire Lee's profile" />
                 </a>
             </div>
             <div className="mt-2">
