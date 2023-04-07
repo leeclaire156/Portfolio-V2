@@ -9,6 +9,7 @@
 
 * {
     font-family: 'Coming Soon', cursive;
+    font-size: 20px;
 }
 
 nav {
@@ -16,15 +17,26 @@ nav {
 }
 
 .active {
-    text-decoration: underline!important;
+    text-decoration: underline !important;
 }
 
-h1 {
+h1,
+h2 {
     font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem !important;
+}
+
+h3 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2rem !important;
 }
 
 .main {
-    /* Grid paper CSS starts below */
+    /* Grid paper background pattern styling starts below */
     height: 100vh;
     margin: 0 auto;
     /* Controls color of the boxes */
@@ -37,35 +49,84 @@ h1 {
     background-position: -0.1rem -0.1rem;
 }
 
-.profileImg {
-    height: 15rem;
-    border: black .25rem solid;
-}
+/* AboutMe Page styling below */
 
-/*Desktop layout*/
-@media screen and (min-width: 992px) {
-    .button {
-        background-color: transparent;
-        border: var(--text-color) 1px dashed;
-        border-radius: 5px;
-        margin-top: 5px;
+/* mobile and tablets */
+@media screen and (max-width: 992px) {
+    .aboutMePg {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     /* Polaroid + Tape CSS starts below */
-    .active {
-        text-decoration: underline black;
-    }
-
     .profileImg {
-        height: 15rem;
-        border: black .25rem solid;
+        height: 10rem;
     }
 
     .polaroid {
         width: fit-content;
-        border: black .25rem solid;
+        padding: 1rem 1rem 3rem 1rem;
+        background-color: white;
+        box-shadow: 12px 12px 20px 1px #20212460;
+    }
+
+    .tapedImg {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .tape {
+        position: absolute;
+        height: 150px;
+        width: 40px;
+        border: 1px solid #00000048;
+        transform: rotate(90deg);
+        background: #ffffff77
+    }
+
+    .tape1 {
+        top: -4rem;
+        left: auto!important;
+    }
+
+    .tape2 {
+        display: none;
+    }
+}
+
+/*Desktop layout*/
+@media screen and (min-width: 992px) {
+    .aboutMePg {
+        display: flex;
+        flex: row;
+    }
+
+    .aboutMeParagraph {
+        margin-right: 1rem;
+    }
+
+    .button {
+        background-color: transparent;
+        border: var(--text-color) 1px dashed;
+        border-radius: 5px;
+    }
+
+    /* Polaroid + Tape CSS starts below */
+    .profileImg {
+        height: 15rem;
+    }
+
+    .polaroid {
+        width: fit-content;
         padding: 1rem 1rem 4rem 1rem;
         background-color: white;
+        box-shadow: 12px 12px 20px 1px #20212460;
+    }
+
+    .tapedImg {
+        position: relative;
     }
 
     .tape {
@@ -78,35 +139,26 @@ h1 {
     }
 
     .tape1 {
-        bottom: 450px;
-        right: 550px;
+        bottom: 12rem;
+        left: 14rem;
     }
 
     .tape2 {
-        top: 25px;
-        right: 300px;
-    }
-
-    .aboutMePg {
-        display: flex;
-        flex: row;
+        top: 13rem;
+        right: 14rem;
     }
 }
 
-footer {
-    background-color: var(--nav-background-color);
-    position: absolute;
-    /* Puts footer on bottom of page */
-    bottom: 0;
-    width: 100%;
-    padding: .5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 1400px) {
+    .tape1 {
+        bottom: 13.5rem;
+        left: 14rem;
+    }
 }
 
-/* Spaces the Footer icon links apart */
-footer>div>a {
-    margin: 0 10px;
+@media screen and (max-width: 1200px) {
+    .tape1 {
+        bottom: 16rem;
+        left: 14rem;
+    }
 }
