@@ -1,4 +1,28 @@
-/* Mobile Version */
+.projectLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.projectName {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 0.25rem;
+}
+
+.projectDescription {
+    font-size: 20px;
+}
+
+.projectLinks>a>img:hover{
+    height: 70px;
+    width: 70px;
+}
+
+/* Mobile Portfolio Cards Styling */
 @media screen and (max-width: 768px) {
     .allProjects {
         display: grid;
@@ -18,7 +42,7 @@
     }
 }
 
-/* Tablet Version */
+/* Tablet Portfolio Cards Styling */
 @media screen and (min-width: 768px) {
     .allProjects {
         display: grid;
@@ -36,7 +60,7 @@
     }
 }
 
-/* Desktop Version */
+/* Desktop Portfolio Cards Styling */
 @media screen and (min-width: 992px) {
     .allProjects {
         display: grid;
@@ -49,25 +73,6 @@
     }
 
     .projectThumbnail {
-        height: 250px;
+        height: 225px;
     }
-}
-
-.projectLinks {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 0.5rem;
-}
-
-.projectName {
-    font-weight: bold;
-    font-size: 1.25rem;
-    text-align: center;
-    margin-top: 0.25rem;
-}
-
-.projectDescription {
-    font-size: 20px;
 }
