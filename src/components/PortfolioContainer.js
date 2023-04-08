@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/main.css';
 import NavTabs from './NavTabs';
 // import Home from './pages/Home';
@@ -28,6 +28,11 @@ export default function PortfolioContainer() {
 
   // This method transfers the information about the currentPage state to re-set the currentPage variable
   const handlePageChange = (page) => setCurrentPage(page);
+
+  // Changes document title
+  useEffect(() => {
+    document.title = "Claire's Portfolio"
+  })
 
   return (
     <div className='main'>

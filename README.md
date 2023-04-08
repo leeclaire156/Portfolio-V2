@@ -1,11 +1,10 @@
-# Portfolio V2.0
+b# Portfolio V2.0
 
 ## Description
 
-This project is an update on my previous portfolio page, using React. This website features a header with a navigation bar containing the links to the About Me, Portfolio, and Contact pages of my portfolio page. A resume anchor is included in the navbar for users to download my resume.
+This project is an update on my previous portfolio page, using React. The theme was based on the grid paper of a chemistry lab notebook from Hayden McNeil's carbon copy lab notebook line. This website features a header with a navigation bar containing the links to the About Me, Portfolio, and Contact pages of my portfolio page. A resume anchor is included in the navbar for users to download my resume.
 
-The About Me page includes my photo and a description of me. The Portfolio page features six of my recent projects with their title, thumbnail images, a link to the GitHub repository, and 
-a link to the deployed site or a demo video. The Contact page includes a form with built-in validations where users can add their name, email, and a message.
+The About Me page includes my photo and a description of me. The Portfolio page features six of my recent projects with their title, thumbnail images, a link to the GitHub repository, and a link to the deployed site or a demo video. The Contact page includes a form with built-in validations where users can add their name, email, and a message.
 
 In addition, the footer of this website contains links to my GitHub, my LinkedIn, and my StackOverflow profile pages.
 
@@ -124,6 +123,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Credit to [React](https://react.dev/) for the commands in Usage (further development)
 
+* Conditionally rendered portfolio pages performed by the nav bar base code from George Washington University's Full Stack Coding Bootcamp Week 20-React, Activity 24-Stu_Conditional-Rendering.
+
+* Using maps() method to render an array of data to React props credit goes to George Washington University's Full Stack Coding Bootcamp Week 20-React, Activity 09-Ins_Component.
+
 * Credit to initializing with React version 17.0.2 goes to [DanteDX](https://stackoverflow.com/users/12639918/dantedx) on StackOverflow:<br></br>https://stackoverflow.com/questions/71913692/module-not-found-error-cant-resolve-react-dom-client
 
 * React bootstrap responsive navbar information provided by [React Bootstrap](https://react-bootstrap.github.io/):<br></br>https://react-bootstrap.github.io/components/navbar/
@@ -169,6 +172,14 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 * Keeping tapes relative to polaroid image credit goes to [shanethehat](https://stackoverflow.com/users/665800/shanethehat) on StackedOverflow:<br></br>https://stackoverflow.com/questions/5563285/div-absolute-positioning-maintain-position-after-browser-window-resize
 
 * Grid background with CSS credit to [ashiqur rahman](https://github.com/ashiqur-rony): https://ashiqur.com/grid-background-with-css/
+
+* Rounded Corner Image Generator by [Generate It!](https://www.generateit.net/):<br></br>https://www.generateit.net/rounded-corner/
+
+* Hexidecimal to RGB Color Converter by [RapidTables](https://www.rapidtables.com/):<br></br>https://www.rapidtables.com/convert/color/hex-to-rgb.html
+
+* Changing title in react information from [Styx Tech's](https://www.youtube.com/@styxtech5066) YouTube Video `Change React title dynamically in each page`:<br></br>https://www.youtube.com/watch?v=9ChEVesbK9s
+
+* Changing favicon from React default information from [ProgrammerError's](https://www.youtube.com/@ProgrammerError) YouTube Video `React | How to Add a Favicon and Title`:<br></br>https://www.youtube.com/watch?v=7pJmM-XdPm8&t=232s
 
 ## Questions
 
