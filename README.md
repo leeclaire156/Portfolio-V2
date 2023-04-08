@@ -122,7 +122,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Credits
 
-* Credit to React for the commands in Usage (further development)
+* Credit to [React](https://react.dev/) for the commands in Usage (further development)
 
 * Credit to initializing with React version 17.0.2 goes to [DanteDX](https://stackoverflow.com/users/12639918/dantedx) on StackOverflow:<br></br>https://stackoverflow.com/questions/71913692/module-not-found-error-cant-resolve-react-dom-client
 
@@ -155,6 +155,20 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 * Validation messages based on [CodingComics's](https://www.youtube.com/@codingcomics) YouTube Video `Form Validation in React JS || Input Validation React JS || React Form Validation onSubmit || React`:<br></br>https://www.youtube.com/watch?v=rZpc7HkmF5Q
 
 * Tape CSS Code based on [Coding Artist's](https://www.youtube.com/@CodingArtist) YouTube Video `Washi Tape Notes With Pure CSS | HTML, CSS Tutorial`:<br></br>https://www.youtube.com/watch?v=2mYIh8-zgFQ&t=34s
+
+* Creating fixed footer to bottom of page [W3Schools](https://www.w3schools.com/default.asp):<br></br>https://www.w3schools.com/howto/howto_css_fixed_footer.asp
+
+* Clearing space for footer [freeCodeCamp](https://www.freecodecamp.org/):<br></br>https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+
+* CSS :nth-child() Selector [W3Schools](https://www.w3schools.com/default.asp):<br></br>https://www.w3schools.com/cssref/sel_nth-child.php
+
+* CSS background-image Property [W3Schools](https://www.w3schools.com/default.asp):<br></br>https://www.w3schools.com/cssref/pr_background-image.php
+
+* Box Shadow [MDN Web Docs](https://developer.mozilla.org/en-US/):<br></br>https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
+* Keeping tapes relative to polaroid image credit goes to [shanethehat](https://stackoverflow.com/users/665800/shanethehat) on StackedOverflow:<br></br>https://stackoverflow.com/questions/5563285/div-absolute-positioning-maintain-position-after-browser-window-resize
+
+* Grid background with CSS credit to [ashiqur rahman](https://github.com/ashiqur-rony): https://ashiqur.com/grid-background-with-css/
 
 ## Questions
 
