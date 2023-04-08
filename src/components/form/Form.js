@@ -59,42 +59,58 @@ export default function Form() {
     return (
         <div>
             <form className="form" style={styles.form}>
-                <div className="form-group">
-                    <input
-                        value={name}
-                        name="name"
-                        onChange={handleInputChange}
-                        // onblur event occurs when an HTML element loses focus (in this case, user leaves form field)
-                        onBlur={handleNameValidation}
-                        type="text"
-                        placeholder="name"
-                    />
+                <div className='inputs'>
+                    <span>
+                        <label>Name:</label>
+                        <div className="form-group">
+                            <input
+                                value={name}
+                                name="name"
+                                onChange={handleInputChange}
+                                // onblur event occurs when an HTML element loses focus (in this case, user leaves form field)
+                                onBlur={handleNameValidation}
+                                type="text"
+                                placeholder="Jane Doe"
+                            />
+                        </div>
+                        {errorNameMessage ? <label className="errorMsg">Name cannot be empty</label> : ""}
+                    </span>
+                    <div>
+                        <label>Email:</label>
+                        <div className="form-group">
+                            <input
+                                defaultValue={email}
+                                name="email"
+                                onChange={handleInputChange}
+                                onBlur={handleEmailValidation}
+                                type="email"
+                                placeholder="jane_doe@email.com"
+                            />
+
+                        </div>
+                        {errorEmailMessage ? <label className="errorMsg">Check your email</label> : ""}
+                    </div>
                 </div>
-                {errorNameMessage ? <label className="errorMsg">Name cannot be empty</label> : ""}
-                <div className="form-group">
-                    <input
-                        defaultValue={email}
-                        name="email"
-                        onChange={handleInputChange}
-                        onBlur={handleEmailValidation}
-                        type="email"
-                        placeholder="jane.doe@email.com"
-                    />
+
+                <div>
+                    <label>Message:</label>
+                    <div className="form-group">
+                        <textarea
+                            defaultValue={message}
+                            name="message"
+                            onChange={handleInputChange}
+                            onBlur={handleTextAreaValidation}
+                            rows={6}
+                        />
+                    </div>
+                    {errorTextAreaMessage ? <label className="errorMsg">Message cannot be empty</label> : ""}
                 </div>
-                {errorEmailMessage ? <label className="errorMsg">Check your email</label> : ""}
-                <div className="form-group">
-                    <textarea
-                        defaultValue={message}
-                        name="message"
-                        onChange={handleInputChange}
-                        onBlur={handleTextAreaValidation}
-                        rows={6}
-                    />
+
+                <div className='button-container'>
+                    <button className="submitBtn" type="button" onClick={handleFormSubmit}>
+                        Submit
+                    </button>
                 </div>
-                {errorTextAreaMessage ? <label className="errorMsg">Message cannot be empty</label> : ""}
-                <button type="button" onClick={handleFormSubmit}>
-                    Submit
-                </button>
             </form>
         </div>
     );
