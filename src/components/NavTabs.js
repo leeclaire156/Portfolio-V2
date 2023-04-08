@@ -6,8 +6,8 @@ export default function NavTabs({ currentPage, handlePageChange }) {
     <header>
       <Navbar collapseOnSelect expand='lg'>
         <Container>
+        <Navbar.Brand><h1>Claire Lee</h1></Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <h1>Claire Lee</h1>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className="me-auto">
               {/* <Nav.Link href='#home'
@@ -30,6 +30,8 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
                 Contact
               </Nav.Link>
+            </Nav>
+            <Nav>
               <button className="button">
                 <a href={require("./resumes/Lee_Claire_Resume.pdf")} download>
                   Download Resume
