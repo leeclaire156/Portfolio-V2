@@ -68,7 +68,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div className="Portfolio Body">
+    <div className="Portfolio contentWrapper">
       <h2>Portfolio Page</h2>
       <ProjectCards projects={projects} />
     </div>

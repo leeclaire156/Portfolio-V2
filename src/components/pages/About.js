@@ -1,11 +1,12 @@
 import React from 'react';
+import styles from '../../styles/about.css';
 import profileImg from '../../images/profile-img.jpg';
 
 export default function About() {
   return (
-    <div>
+    <div style={styles}>
       <h2>About Me</h2>
-      <div className='aboutMePg'>
+      <div className='aboutMePg contentWrapper'>
         <div>
           <p className='aboutMeParagraph'>
             Hi there! I have a background in Chemistry and Biology but have always shined best when allowed to be creative in school projects.
