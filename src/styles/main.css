@@ -10,6 +10,7 @@
 * {
     font-family: 'Coming Soon', cursive;
     font-size: 20px;
+    line-height: 1.75rem;
 }
 
 nav {
@@ -35,130 +36,41 @@ h3 {
     font-size: 2rem !important;
 }
 
-.main {
+body {
     /* Grid paper background pattern styling starts below */
     height: 100vh;
     margin: 0 auto;
     /* Controls color of the boxes */
     background-color: white;
     /* First linear-gradient creates the horizontal lines in the grid pattern, second one creates the vertical lines */
-    background-image: linear-gradient(var(--nav-background-color) .1rem, transparent .1rem), linear-gradient(90deg, var(--nav-background-color) .1rem, transparent .1rem);
+    background-image:
+        linear-gradient(var(--nav-background-color) .1rem, transparent .1rem),
+        linear-gradient(90deg, var(--nav-background-color) .1rem, transparent .1rem);
     /* Controls size of the boxes */
     background-size: 2.5rem 2.5rem;
     /* Offsets the grid styling so it looks trimmed to the window */
     background-position: -0.1rem -0.1rem;
 }
 
-/* AboutMe Page styling below */
-
-/* mobile and tablets */
+/* Mobile and tablets */
 @media screen and (max-width: 992px) {
-    .aboutMePg {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    /* Polaroid + Tape CSS starts below */
-    .profileImg {
-        height: 10rem;
-    }
-
-    .polaroid {
-        width: fit-content;
-        padding: 1rem 1rem 3rem 1rem;
-        background-color: white;
-        box-shadow: 12px 12px 20px 1px #20212460;
-    }
-
-    .tapedImg {
-        margin: 1rem;
-        display: flex;
-        justify-content: center;
-        position: relative;
-    }
-
-    .tape {
-        position: absolute;
-        height: 150px;
-        width: 40px;
-        border: 1px solid #00000048;
-        transform: rotate(90deg);
-        background: #ffffff77
-    }
-
-    .tape1 {
-        top: -4rem;
-        left: auto!important;
-    }
-
-    .tape2 {
-        display: none;
+    .contentWrapper {
+        padding-bottom: 10rem
     }
 }
 
 /*Desktop layout*/
 @media screen and (min-width: 992px) {
-    .aboutMePg {
-        display: flex;
-        flex: row;
+
+    /* Provides space between content and footer */
+    .contentWrapper {
+        padding-bottom: 4.5rem
     }
 
-    .aboutMeParagraph {
-        margin-right: 1rem;
-    }
-
+    /* Resume button stylings */
     .button {
         background-color: transparent;
         border: var(--text-color) 1px dashed;
         border-radius: 5px;
-    }
-
-    /* Polaroid + Tape CSS starts below */
-    .profileImg {
-        height: 15rem;
-    }
-
-    .polaroid {
-        width: fit-content;
-        padding: 1rem 1rem 4rem 1rem;
-        background-color: white;
-        box-shadow: 12px 12px 20px 1px #20212460;
-    }
-
-    .tapedImg {
-        position: relative;
-    }
-
-    .tape {
-        position: absolute;
-        height: 220px;
-        width: 60px;
-        border: 1px solid #00000048;
-        transform: rotate(-45deg);
-        background: #ffffff77
-    }
-
-    .tape1 {
-        bottom: 12rem;
-        left: 14rem;
-    }
-
-    .tape2 {
-        top: 13rem;
-        right: 14rem;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .tape1 {
-        bottom: 13.5rem;
-        left: 14rem;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .tape1 {
-        bottom: 16rem;
-        left: 14rem;
     }
 }

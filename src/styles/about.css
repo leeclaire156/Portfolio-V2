@@ -1,0 +1,105 @@
+/* Mobile and Tablet About Me Page Styling */
+@media screen and (max-width: 992px) {
+    .aboutMePg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* Polaroid + Tape CSS starts below */
+    .profileImg {
+        height: 10rem;
+    }
+
+    .polaroid {
+        width: fit-content;
+        padding: 1rem 1rem 3rem 1rem;
+        background-color: white;
+        box-shadow: 12px 12px 20px 1px #20212460;
+    }
+
+    .tapedImg {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .tape {
+        position: absolute;
+        height: 150px;
+        width: 40px;
+        border: 1px solid #00000048;
+        transform: rotate(90deg);
+        background: #ffffff77
+    }
+
+    .tape1 {
+        top: -4rem;
+        left: auto !important;
+    }
+
+    .tape2 {
+        display: none;
+    }
+}
+
+/* Desktop About Me Page Styling */
+@media screen and (min-width: 992px) {
+    .aboutMePg {
+        display: flex;
+        flex: row;
+    }
+
+    .aboutMeParagraph {
+        margin-right: 1rem;
+    }
+
+    /* Polaroid + Tape CSS starts below */
+    .profileImg {
+        height: 15rem;
+    }
+
+    .polaroid {
+        width: fit-content;
+        padding: 1rem 1rem 4rem 1rem;
+        background-color: white;
+        box-shadow: 12px 12px 20px 1px #20212460;
+    }
+
+    .tapedImg {
+        position: relative;
+    }
+
+    .tape {
+        position: absolute;
+        height: 220px;
+        width: 60px;
+        border: 1px solid #00000048;
+        transform: rotate(-45deg);
+        background: #ffffff77
+    }
+
+    .tape1 {
+        bottom: 14rem;
+        left: 14rem;
+    }
+
+    .tape2 {
+        top: 13rem;
+        right: 14rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .tape1 {
+        bottom: 15.5rem;
+        left: 14rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .tape1 {
+        bottom: 19rem;
+        left: 14rem;
+    }
+}
