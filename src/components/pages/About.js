@@ -18,13 +18,25 @@ export default function About() {
           <div>
             <h4>Front-End</h4>
             <p>
-              JS, CSS, HTML, Handlebars, React, Bootstrap, Bulma
+              JS, CSS, HTML, Handlebars, React, Bootstrap, Bulma, Responsive Design, DOM Manipulation
             </p>
           </div>
           <div>
             <h4>Back-End</h4>
             <p>
               SQL, MongoDB, Express, Node
+            </p>
+          </div>
+          <div>
+            <h4>Additional Technical Skills</h4>
+            <p>
+              GitHub, Wire-framing, JEST Testing, API
+            </p>
+          </div>
+          <div>
+            <h4>Soft Skills</h4>
+            <p>
+              Communication, visual thinking, creativity, problem-solving, adaptability, collaboration, patience, growth mindset
             </p>
           </div>
         </div>
