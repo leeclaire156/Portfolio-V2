@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://leeclaire156.github.io/Portfolio-V2",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
