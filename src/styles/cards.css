@@ -18,8 +18,7 @@
 }
 
 .projectLinks>a>img:hover {
-    height: 70px;
-    width: 70px;
+    transform: scale(1.1)
 }
 
 /* Mobile Portfolio Cards Styling */

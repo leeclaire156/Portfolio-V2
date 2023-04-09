@@ -1,6 +1,7 @@
 :root {
     --graphite: #c0c0c0;
     --graphite-dark: #757575;
+    --notecard-paper: #e4d6c9;
 }
 
 .errorMsg {
@@ -39,7 +40,7 @@ label {
     border-radius: 5px;
     padding: 0.5rem;
     width: 250px;
-    
+
     border: none;
     font-size: 1.75rem;
     font-weight: bold;

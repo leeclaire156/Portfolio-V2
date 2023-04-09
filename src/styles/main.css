@@ -62,25 +62,7 @@ body {
         text-align: center;
     }
 
-    /* Resume button stylings */
-    .button {
-        background-color: transparent;
-        border: var(--text-color) 1px dashed;
-        border-radius: 5px;
-        text-decoration: none;
-    }
-
-    .button>a {
-        text-decoration: none;
-        color: var(--text-color);
-    }
-
-    .button>a:active {
-        text-decoration: none;
-        color: var(--text-color);
-    }
-
-    nav{
+    nav {
         padding: 12px !important;
     }
 }
@@ -93,27 +75,29 @@ body {
         padding-bottom: 4.5rem
     }
 
-    /* Resume button stylings */
-    .button {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: transparent;
-        border: var(--text-color) 1px dashed;
-        border-radius: 5px;
-    }
-
-    .button>a {
-        text-decoration: none;
-        color: var(--text-color);
-    }
-
-    .button>a:active {
-        text-decoration: none;
-        color: var(--text-color);
-    }
-
-    nav{
+    nav {
         padding: 3.75px !important;
+    }
+
+    #navLinks>*:nth-child(1) {
+        margin-left: 5rem;
+    }
+
+    #navLinks>*:nth-child(1),
+    #navLinks>*:nth-child(2),
+    #navLinks>*:nth-child(3) {
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #navLinks>*:nth-child(1) {
+        margin-left: 12.5rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #navLinks>*:nth-child(1) {
+        margin-left: 21.5rem;
     }
 }

@@ -7,8 +7,7 @@ footer {
 }
 
 .footerIcons>a>img:hover {
-    height: 55px;
-    width: 55px;
+    transform: scale(1.1)
 }
 
 /* Mobile and Tablet Footer Styling */

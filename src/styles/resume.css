@@ -1,0 +1,41 @@
+:root {
+    --text-color: #202124;
+}
+
+.ResumePg {
+    display: flex;
+    flex-direction: column;
+}
+
+.resumeDownload>a {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+/* Underlines download anchor and enlarges icon on hover */
+.resumeDownload>a:hover * {
+    text-decoration: underline;
+    color: var(--text-color);
+    transform: scale(1.125);
+    margin-right: 5px;
+}
+
+.downloads {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:768px) {
+    .resumeDownload>* {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .resumeDownload>a>span {
+        font-size: 12.5px;
+    }
+}

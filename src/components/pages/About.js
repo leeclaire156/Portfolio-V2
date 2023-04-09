@@ -14,31 +14,6 @@ export default function About() {
             I decided that it wasn't for me and that I desired a career that better balanced creativity and problem-solving skills.
             Please follow me as I develop websites and myself.
           </p>
-          <h3>Skills</h3>
-          <div>
-            <h4>Front-End</h4>
-            <p>
-              JS, CSS, HTML, Handlebars, React, Bootstrap, Bulma, Responsive Design, DOM Manipulation
-            </p>
-          </div>
-          <div>
-            <h4>Back-End</h4>
-            <p>
-              SQL, MongoDB, Express, Node
-            </p>
-          </div>
-          <div>
-            <h4>Additional Technical Skills</h4>
-            <p>
-              GitHub, Wire-framing, JEST Testing, API
-            </p>
-          </div>
-          <div>
-            <h4>Soft Skills</h4>
-            <p>
-              Communication, visual thinking, creativity, problem-solving, adaptability, collaboration, patience, growth mindset
-            </p>
-          </div>
         </div>
         <div className='tapedImg'>
           <div className='tape tape1'></div>
