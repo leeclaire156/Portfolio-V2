@@ -9,7 +9,7 @@ import Footer from './footer/Footer';
 import { Container } from 'react-bootstrap';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Contact');
+  const [currentPage, setCurrentPage] = useState('About');
 
   // This method checks to see what the value of `currentPage` is. 
   // Depending on the value of currentPage, we return the corresponding component to render. This function is called on line 35.
