@@ -1,4 +1,4 @@
-b# Portfolio V2.0
+bbb# Portfolio V2.0
 
 ## Description
 
@@ -186,6 +186,17 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 * Usage of transform to enlarge icons without disturbing flow of page thanks to [Boaz](https://stackoverflow.com/users/1889273/boaz) on StackedOverflow:<br></br>https://stackoverflow.com/questions/14417433/how-to-enlarge-a-div-without-moving-other-elements
 
 * Usage of cascade hover to make img and text for resume page enlarge on hover (as opposed to the image enlarging only when hovering on image and not on text) special thanks to [seanb](https://stackoverflow.com/users/3354/seanb):<br></br>https://stackoverflow.com/questions/137449/css-for-hover-that-includes-all-child-elements/
+
+* Highlight Submit Button Animation thanks to [beardhatcode](https://stackoverflow.com/users/831645/beardhatcode):<br></br>https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css#:~:text=The%20thing%20you%20will%20need,to%20position%20the%20background%20right.
+
+* Art tutorial for Gold by [drawingden](https://drawingden.tumblr.com/):<br></br>https://drawingden.tumblr.com/post/179224581693/how-to-paint-gold-tutorial-by-lenamoart-support
+
+* Input form underline credit goes to [JunM](https://stackoverflow.com/users/2122827/junm):<br></br>https://stackoverflow.com/questions/21807454/textfield-with-only-bottom-border
+
+* Text Area Scrollbar styling credit goes to [Robin from WebMound](https://www.webmound.com/):<br></br>https://www.webmound.com/style-html-textarea/
+
+* Corner edge outline on text area credit goes to [Robert Kirsz](https://stackoverflow.com/users/1493107/robert-kirsz) on StackedOverflow:<br></br>https://stackoverflow.com/questions/14387690/how-can-i-show-only-corner-borders
+
 
 ## Questions
 

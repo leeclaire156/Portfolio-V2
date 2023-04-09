@@ -16,8 +16,8 @@ export default function About() {
           </p>
         </div>
         <div className='tapedImg'>
-          <div className='tape tape1'></div>
-          <div className='tape tape2'></div>
+          <div className='tape tape1' aria-hidden="true"></div>
+          <div className='tape tape2' aria-hidden="true"></div>
           <div className='polaroid'>
             <img className='profileImg' src={profileImg} alt="Claire Lee with a polaroid frame around the image" />
           </div>
