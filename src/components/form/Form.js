@@ -12,7 +12,7 @@ export default function Form() {
 
     const handleNameValidation = (e) => {
         e.preventDefault();
-        if (name.length == 0 || email.length == 0 || message.length == 0) {
+        if (name.length == 0) {
             setNameError(true)
         } else {
             setNameError(false)
@@ -54,13 +54,19 @@ export default function Form() {
         setName('');
         setEmail('');
         setMessage('');
+
+        var textArea = document.getElementById('messageArea');
+        textArea.value = '';
+
+        var emailInput = document.getElementById('emailInput');
+        emailInput.value = '';
     };
 
     return (
         <div>
             <form className="form" style={styles.form}>
                 <div className='inputs'>
-                    <span>
+                    <div>
                         <label>Name:</label>
                         <div className="form-group">
                             <input
@@ -71,10 +77,12 @@ export default function Form() {
                                 onBlur={handleNameValidation}
                                 type="text"
                                 placeholder="Jane Doe"
+                                id="nameInput"
                             />
                         </div>
                         {errorNameMessage ? <label className="errorMsg">Name cannot be empty</label> : ""}
-                    </span>
+                    </div>
+
                     <div>
                         <label>Email:</label>
                         <div className="form-group">
@@ -85,8 +93,8 @@ export default function Form() {
                                 onBlur={handleEmailValidation}
                                 type="email"
                                 placeholder="jane_doe@email.com"
+                                id="emailInput"
                             />
-
                         </div>
                         {errorEmailMessage ? <label className="errorMsg">Check your email</label> : ""}
                     </div>
@@ -101,6 +109,8 @@ export default function Form() {
                             onChange={handleInputChange}
                             onBlur={handleTextAreaValidation}
                             rows={6}
+                            placeholder="Enter your message"
+                            id="messageArea"
                         />
                     </div>
                     {errorTextAreaMessage ? <label className="errorMsg">Message cannot be empty</label> : ""}
@@ -111,6 +121,8 @@ export default function Form() {
                         Submit
                     </button>
                 </div>
+                <div className='washiTape rightTape tape3' aria-hidden="true"></div>
+                <div className='washiTape leftTape tape4' aria-hidden="true"></div>
             </form>
         </div>
     );
