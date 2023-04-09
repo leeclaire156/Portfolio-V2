@@ -7,6 +7,16 @@
 .errorMsg {
     color: red;
     font-weight: bold;
+    position: absolute;
+}
+
+.nameError,
+.emailError {
+    margin-top: -2rem;
+}
+
+.msgError {
+    margin-top: -0.5rem;
 }
 
 .form {
@@ -30,6 +40,11 @@ input {
     outline: 0;
     background: transparent;
     border-bottom: 2px solid black;
+}
+
+#nameInput,
+#emailInput {
+    margin-bottom: 2rem;
 }
 
 #messageArea {
@@ -129,7 +144,7 @@ label {
     .rightTape {
         transform: rotate(-90deg);
         height: 650px;
-        bottom: 17rem;
+        bottom: 21rem;
         left: 11.55rem;
     }
 
@@ -142,13 +157,13 @@ label {
 @media screen and (min-width:768px) {
     .rightTape {
         transform: rotate(-50deg) scale(0.75);
-        bottom: 26.5rem;
+        bottom: 30.75rem;
         left: 31rem;
     }
 
     .leftTape {
         transform: rotate(-125deg) scale(0.75);
-        bottom: 27rem;
+        bottom: 31rem;
         right: 31rem;
     }
 }
@@ -157,13 +172,13 @@ label {
 @media screen and (min-width:992px) {
     .rightTape {
         transform: rotate(-45deg) scale(0.875);
-        bottom: 26.5rem;
+        bottom: 30rem;
         left: 43rem;
     }
 
     .leftTape {
         transform: rotate(-125deg) scale(0.875);
-        bottom: 27rem;
+        bottom: 31rem;
         right: 43rem;
     }
 }
@@ -171,13 +186,13 @@ label {
 @media screen and (min-width:1200px) {
     .rightTape {
         transform: rotate(-45deg);
-        bottom: 26.5rem;
+        bottom: 30rem;
         left: 52rem;
     }
 
     .leftTape {
         transform: rotate(-125deg);
-        bottom: 27rem;
+        bottom: 31rem;
         right: 52rem;
     }
 }
@@ -185,13 +200,13 @@ label {
 @media screen and (min-width:1400px) {
     .rightTape {
         transform: rotate(-45deg);
-        bottom: 26.5rem;
+        bottom: 30rem;
         left: 61rem;
     }
 
     .leftTape {
         transform: rotate(-125deg);
-        bottom: 27rem;
+        bottom: 31rem;
         right: 61rem;
     }
 }

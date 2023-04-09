@@ -80,7 +80,7 @@ export default function Form() {
                                 id="nameInput"
                             />
                         </div>
-                        {errorNameMessage ? <label className="errorMsg">Name cannot be empty</label> : ""}
+                        {errorNameMessage ? <label className="errorMsg nameError">Name cannot be empty</label> : ""}
                     </div>
 
                     <div>
@@ -96,7 +96,7 @@ export default function Form() {
                                 id="emailInput"
                             />
                         </div>
-                        {errorEmailMessage ? <label className="errorMsg">Check your email</label> : ""}
+                        {errorEmailMessage ? <label className="errorMsg emailError">Check your email</label> : ""}
                     </div>
                 </div>
 
@@ -113,7 +113,7 @@ export default function Form() {
                             id="messageArea"
                         />
                     </div>
-                    {errorTextAreaMessage ? <label className="errorMsg">Message cannot be empty</label> : ""}
+                    {errorTextAreaMessage ? <label className="errorMsg msgError">Message cannot be empty</label> : ""}
                 </div>
 
                 <div className='button-container'>

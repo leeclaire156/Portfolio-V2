@@ -1,4 +1,4 @@
-bbb# Portfolio V2.0
+# Portfolio V2.0
 
 ## Description
 
@@ -80,7 +80,7 @@ Method 2 - File > Preferences > Setting:
 
 ## Usage
 
-* This full-stack application's online version is deployed [here](https://leeclaire156.github.io/Portfolio-V2) on GitHub Pages. After clicking the link, click on any link in the nav bar to explore or resume to download my resume. Click on the icons in the footer to explore my GitHub, LinkedIn, or StackedOverflow pages. 
+* This full-stack application's online version is deployed [here](https://leeclaire156.github.io/Portfolio-V2) on GitHub Pages. After clicking the link, click on any link in the nav bar to explore or resume to download my resume. Click on the icons in the footer to explore my GitHub, LinkedIn, or StackOverflow pages. 
 
 ### The following commands are for further development only and come from React
 
@@ -141,11 +141,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Placing footer at bottom of page information provided by [freeCodeCamp](https://www.freecodecamp.org/):<br></br>https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
 
-* Importing images information provided by [Hawkeye Parker](https://stackoverflow.com/users/99717/hawkeye-parker) on StackedOverflow:<br></br>https://stackoverflow.com/questions/34582405/react-wont-load-local-images
+* Importing images information provided by [Hawkeye Parker](https://stackoverflow.com/users/99717/hawkeye-parker) on StackOverflow:<br></br>https://stackoverflow.com/questions/34582405/react-wont-load-local-images
 
 * onBlur vs onChange react event listeners [Ruben Leija's blog Linguine Code](https://linguinecode.com/):<br></br>https://linguinecode.com/post/onblur-vs-onchange-react-text-inputs
 
-* onBlur information further provided by [pope_maverick](https://stackoverflow.com/users/3065781/pope-maverick) on Stacked Overflow:<br></br>https://stackoverflow.com/questions/71838444/show-validation-after-click-outside-the-input
+* onBlur information further provided by [pope_maverick](https://stackoverflow.com/users/3065781/pope-maverick) on StackOverflow:<br></br>https://stackoverflow.com/questions/71838444/show-validation-after-click-outside-the-input
 
 * Disabling text area property provided by [Donut](https://stackoverflow.com/users/121493/donut):<br></br>https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea
 
@@ -169,7 +169,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Box Shadow [MDN Web Docs](https://developer.mozilla.org/en-US/):<br></br>https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
 
-* Keeping tapes relative to polaroid image credit goes to [shanethehat](https://stackoverflow.com/users/665800/shanethehat) on StackedOverflow:<br></br>https://stackoverflow.com/questions/5563285/div-absolute-positioning-maintain-position-after-browser-window-resize
+* Keeping tapes relative to polaroid image credit goes to [shanethehat](https://stackoverflow.com/users/665800/shanethehat) on StackOverflow:<br></br>https://stackoverflow.com/questions/5563285/div-absolute-positioning-maintain-position-after-browser-window-resize
 
 * Grid background with CSS credit to [ashiqur rahman](https://github.com/ashiqur-rony): https://ashiqur.com/grid-background-with-css/
 
@@ -183,7 +183,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Microsoft Word Icon based on [whitestar's](https://www.vecteezy.com/members/maulid091) asset on [Vecteezy](https://www.vecteezy.com/):<br></br>https://www.vecteezy.com/vector-art/4532190-illustration-of-microsoft-word-excel-power-point-mobile-app-logos
 
-* Usage of transform to enlarge icons without disturbing flow of page thanks to [Boaz](https://stackoverflow.com/users/1889273/boaz) on StackedOverflow:<br></br>https://stackoverflow.com/questions/14417433/how-to-enlarge-a-div-without-moving-other-elements
+* Usage of transform to enlarge icons without disturbing flow of page thanks to [Boaz](https://stackoverflow.com/users/1889273/boaz) on StackOverflow:<br></br>https://stackoverflow.com/questions/14417433/how-to-enlarge-a-div-without-moving-other-elements
 
 * Usage of cascade hover to make img and text for resume page enlarge on hover (as opposed to the image enlarging only when hovering on image and not on text) special thanks to [seanb](https://stackoverflow.com/users/3354/seanb):<br></br>https://stackoverflow.com/questions/137449/css-for-hover-that-includes-all-child-elements/
 
@@ -195,7 +195,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Text Area Scrollbar styling credit goes to [Robin from WebMound](https://www.webmound.com/):<br></br>https://www.webmound.com/style-html-textarea/
 
-* Corner edge outline on text area credit goes to [Robert Kirsz](https://stackoverflow.com/users/1493107/robert-kirsz) on StackedOverflow:<br></br>https://stackoverflow.com/questions/14387690/how-can-i-show-only-corner-borders
+* Corner edge outline on text area credit goes to [Robert Kirsz](https://stackoverflow.com/users/1493107/robert-kirsz) on StackOverflow:<br></br>https://stackoverflow.com/questions/14387690/how-can-i-show-only-corner-borders
+
+* [Kaivosukeltaja](https://stackoverflow.com/users/196838/kaivosukeltaja) on StackOverflow:<br></br>https://stackoverflow.com/questions/34064722/displaying-error-message-without-moving-elements-located-under
 
 
 ## Questions
