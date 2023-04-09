@@ -1,20 +1,16 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import styles from '../styles/main.css';
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header>
+    <header style={styles}>
       <Navbar collapseOnSelect expand='lg'>
         <Container>
         <Navbar.Brand><h1>Claire Lee</h1></Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className="me-auto">
-              {/* <Nav.Link href='#home'
-                onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                Home
-              </Nav.Link> */}
+            <Nav className="me-auto" id="navLinks">
               <Nav.Link href='#about'
                 onClick={() => handlePageChange('About')}
                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
@@ -30,13 +26,11 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
                 Contact
               </Nav.Link>
-            </Nav>
-            <Nav>
-              <button className="button">
-                <a href={require("./resumes/Lee_Claire_Resume.pdf")} download>
-                  Download Resume
-                </a>
-              </button>
+              <Nav.Link href='#resume'
+                onClick={() => handlePageChange('Resume')}
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+                Resume
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

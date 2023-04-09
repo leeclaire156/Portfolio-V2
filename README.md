@@ -181,6 +181,12 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Changing favicon from React default information from [ProgrammerError's](https://www.youtube.com/@ProgrammerError) YouTube Video `React | How to Add a Favicon and Title`:<br></br>https://www.youtube.com/watch?v=7pJmM-XdPm8&t=232s
 
+* Microsoft Word Icon based on [whitestar's](https://www.vecteezy.com/members/maulid091) asset on [Vecteezy](https://www.vecteezy.com/):<br></br>https://www.vecteezy.com/vector-art/4532190-illustration-of-microsoft-word-excel-power-point-mobile-app-logos
+
+* Usage of transform to enlarge icons without disturbing flow of page thanks to [Boaz](https://stackoverflow.com/users/1889273/boaz) on StackedOverflow:<br></br>https://stackoverflow.com/questions/14417433/how-to-enlarge-a-div-without-moving-other-elements
+
+* Usage of cascade hover to make img and text for resume page enlarge on hover (as opposed to the image enlarging only when hovering on image and not on text) special thanks to [seanb](https://stackoverflow.com/users/3354/seanb):<br></br>https://stackoverflow.com/questions/137449/css-for-hover-that-includes-all-child-elements/
+
 ## Questions
 
 If you have any questions, my GitHub profile is www.github.com/leeclaire156, and my email is lee.claire156@gmail.com.

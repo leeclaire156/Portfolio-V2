@@ -80,7 +80,7 @@
     }
 
     .tape1 {
-        bottom: 25rem;
+        bottom: 12rem;
         left: 14rem;
     }
 
@@ -90,16 +90,9 @@
     }
 }
 
-@media screen and (max-width: 1400px) {
-    .tape1 {
-        bottom: 28.5rem;
-        left: 14rem;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .tape1 {
-        bottom: 31.5rem;
+        bottom: 12rem;
         left: 14rem;
     }
 }
