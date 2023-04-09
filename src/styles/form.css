@@ -128,9 +128,9 @@ label {
 @media screen and (max-width:768px) {
     .rightTape {
         transform: rotate(-90deg);
-        height: 768px;
-        bottom: 14rem;
-        left: 10rem;
+        height: 650px;
+        bottom: 17rem;
+        left: 11.55rem;
     }
 
     .leftTape {
