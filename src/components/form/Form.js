@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import styles from '../../styles/form.css';
+import emailjs from '@emailjs/browser';
+
 
 export default function Form() {
     const [name, setName] = useState('');
@@ -8,7 +10,10 @@ export default function Form() {
     const [errorNameMessage, setNameError] = useState(false);
     const [errorEmailMessage, setEmailError] = useState(false);
     const [errorTextAreaMessage, setTextAreaError] = useState(false);
-
+    const form = useRef();
+    const service = 'service_ib4ursb';
+    const template = 'template_pu8siqy';
+    const publickey = 'GTXGCHMzyiX7vGnMp';
 
     const handleNameValidation = (e) => {
         e.preventDefault();
@@ -49,8 +54,20 @@ export default function Form() {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
 
-        // Alert the user their first and last name, clear the inputs and thus resets the states
-        alert(`Hello, ${name} who is sending "${message}" via your email, ${email}. This contact form is not currently operational.`);
+        if (errorNameMessage == true || errorEmailMessage == true || errorTextAreaMessage == true) {
+            return alert("Please check your input.");
+        }
+
+        emailjs.sendForm(service, template, form.current, publickey)
+            .then((result) => {
+                console.log(result.text);
+                alert("Success!");
+            }, (error) => {
+                console.log(error.text);
+                alert("Error with sending email.")
+            });
+
+
         setName('');
         setEmail('');
         setMessage('');
@@ -64,7 +81,7 @@ export default function Form() {
 
     return (
         <div>
-            <form className="form" style={styles.form}>
+            <form ref={form} onSubmit={handleFormSubmit} className="form" style={styles.form}>
                 <div className='inputs'>
                     <div>
                         <label>Name:</label>
@@ -87,7 +104,7 @@ export default function Form() {
                         <label>Email:</label>
                         <div className="form-group">
                             <input
-                                defaultValue={email}
+                                value={email}
                                 name="email"
                                 onChange={handleInputChange}
                                 onBlur={handleEmailValidation}
@@ -104,7 +121,6 @@ export default function Form() {
                     <label>Message:</label>
                     <div className="form-group">
                         <textarea
-                            defaultValue={message}
                             name="message"
                             onChange={handleInputChange}
                             onBlur={handleTextAreaValidation}
@@ -117,7 +133,7 @@ export default function Form() {
                 </div>
 
                 <div className='button-container'>
-                    <button className="submitBtn" type="button" onClick={handleFormSubmit}>
+                    <button className="submitBtn" type="submit" onClick={handleFormSubmit}>
                         Submit
                     </button>
                 </div>
