@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio-V2/static/css/main.b622b5ea.css",
+    "main.js": "/Portfolio-V2/static/js/main.c2bf16a5.js",
+    "static/media/Social-Network-API.PNG": "/Portfolio-V2/static/media/Social-Network-API.108739a1a5164f68c549.PNG",
+    "static/media/ECommerce.PNG": "/Portfolio-V2/static/media/ECommerce.9b031504935b84eba37e.PNG",
+    "static/media/PlayDate.PNG": "/Portfolio-V2/static/media/PlayDate.84e24030f5996593a830.PNG",
+    "static/media/Employee-Tracker.PNG": "/Portfolio-V2/static/media/Employee-Tracker.16e294de7fb2dc2cd36f.PNG",
+    "static/media/Lee_Claire_Resume.docx": "/Portfolio-V2/static/media/Lee_Claire_Resume.5af06910943a968ef686.docx",
+    "static/media/Lee_Claire_Resume.pdf": "/Portfolio-V2/static/media/Lee_Claire_Resume.b38c347d4e6f28d206c5.pdf",
+    "static/media/profile-img.jpg": "/Portfolio-V2/static/media/profile-img.30813415d2749273bd77.jpg",
+    "static/media/IT-Blog.PNG": "/Portfolio-V2/static/media/IT-Blog.f13b06152ead56ec697b.PNG",
+    "static/media/JATE.PNG": "/Portfolio-V2/static/media/JATE.94f0363fefd972f672b1.PNG",
+    "static/media/pdf192.png": "/Portfolio-V2/static/media/pdf192.b0518088e51d3ed3cf20.png",
+    "static/media/linkedIn192.png": "/Portfolio-V2/static/media/linkedIn192.f37bdb7c182cec34d21e.png",
+    "static/media/doc192.png": "/Portfolio-V2/static/media/doc192.38ecb3c87ec4024fcecf.png",
+    "static/media/gitHub192.png": "/Portfolio-V2/static/media/gitHub192.71df4eea0ea51cc8cd6f.png",
+    "static/media/stackedOverflow192.png": "/Portfolio-V2/static/media/stackedOverflow192.056fe26aa2cbb3cbb84c.png",
+    "static/media/deployed192.png": "/Portfolio-V2/static/media/deployed192.4f6db2bf617d46923373.png",
+    "static/media/washtapeWide.png": "/Portfolio-V2/static/media/washtapeWide.ff82b520fdabdcb3af12.png",
+    "index.html": "/Portfolio-V2/index.html",
+    "main.b622b5ea.css.map": "/Portfolio-V2/static/css/main.b622b5ea.css.map",
+    "main.c2bf16a5.js.map": "/Portfolio-V2/static/js/main.c2bf16a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b622b5ea.css",
+    "static/js/main.c2bf16a5.js"
+  ]
+}
