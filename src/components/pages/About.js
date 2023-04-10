@@ -13,6 +13,9 @@ export default function About() {
             A year into my graduate research journey at The Ohio State University's food science program,
             I decided that it wasn't for me and that I desired a career that better balanced creativity and problem-solving skills.
             Please follow me as I develop websites and myself.
+            <br></br>
+            <br></br>
+            This site was inspired by my old Hayden McNeil's carbon copy lab notebooks and scrap booking with Washi tape. All the icons were drawn by me with my Huion drawing tablet and a program called Paint Tool SAI.
           </p>
         </div>
         <div className='tapedImg'>
