@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Installation](#installation-for-further-development-only)
     - [Git/GitBash](#gitgitbash---strongly-recommended)
     - [Visual Studio Code](#visual-studio-code-vsc---strongly-recommended)
-    - [Node (REQUIRED)](#node-version-16---required-to-download-node-based-dependencies-ie-mongoose-and-express)
+    - [Node (REQUIRED)](#node-version-16---required-to-download-node-based-dependencies-ie-react)
     - [dependencies (REQUIRED)](#dependencies---required)
 - [Usage](#usage)
     - [Commands (Further Development Only)](#the-following-commands-are-for-further-development-only-and-come-from-react)
@@ -81,6 +81,8 @@ Method 2 - File > Preferences > Setting:
 ## Usage
 
 * This full-stack application's online version is deployed [here](https://leeclaire156.github.io/Portfolio-V2) on GitHub Pages. After clicking the link, click on any link in the nav bar to explore or resume to download my resume. Click on the icons in the footer to explore my GitHub, LinkedIn, or StackOverflow pages. 
+
+<video src='./assets/Portfolio-V2-DEMO.webm'  width=180 >
 
 ### The following commands are for further development only and come from React
 
@@ -171,7 +173,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Keeping tapes relative to polaroid image credit goes to [shanethehat](https://stackoverflow.com/users/665800/shanethehat) on StackOverflow:<br></br>https://stackoverflow.com/questions/5563285/div-absolute-positioning-maintain-position-after-browser-window-resize
 
-* Grid background with CSS credit to [ashiqur rahman](https://github.com/ashiqur-rony): https://ashiqur.com/grid-background-with-css/
+* Grid background with CSS credit to [ashiqur rahman](https://github.com/ashiqur-rony):<br></br>https://ashiqur.com/grid-background-with-css/
 
 * Rounded Corner Image Generator by [Generate It!](https://www.generateit.net/):<br></br>https://www.generateit.net/rounded-corner/
 
@@ -197,7 +199,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Corner edge outline on text area credit goes to [Robert Kirsz](https://stackoverflow.com/users/1493107/robert-kirsz) on StackOverflow:<br></br>https://stackoverflow.com/questions/14387690/how-can-i-show-only-corner-borders
 
-* [Kaivosukeltaja](https://stackoverflow.com/users/196838/kaivosukeltaja) on StackOverflow:<br></br>https://stackoverflow.com/questions/34064722/displaying-error-message-without-moving-elements-located-under
+* Setting error messages to position absolute to keep appearance from shifting other elements credit to [Kaivosukeltaja](https://stackoverflow.com/users/196838/kaivosukeltaja) on StackOverflow:<br></br>https://stackoverflow.com/questions/34064722/displaying-error-message-without-moving-elements-located-under
 
 
 ## Questions

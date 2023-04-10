@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    return  <Resume />;
+    return <Resume />;
   };
 
   // This method transfers the information about the currentPage state to re-set the currentPage variable
