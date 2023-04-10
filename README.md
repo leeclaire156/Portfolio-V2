@@ -82,7 +82,9 @@ Method 2 - File > Preferences > Setting:
 
 * This full-stack application's online version is deployed [here](https://leeclaire156.github.io/Portfolio-V2) on GitHub Pages. After clicking the link, click on any link in the nav bar to explore or resume to download my resume. Click on the icons in the footer to explore my GitHub, LinkedIn, or StackOverflow pages. 
 
-<video src='./assets/Portfolio-V2-DEMO.webm'  width=180 >
+[Portfolio-V2-DEMO.webm](https://user-images.githubusercontent.com/104223410/230819041-95f2cc68-c173-442a-8087-e83a003edd54.webm)
+
+If the video above does not work, there is a copy in the assets folder of the root directory.
 
 ### The following commands are for further development only and come from React
 
