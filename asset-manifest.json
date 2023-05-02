@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio-V2/static/css/main.b622b5ea.css",
-    "main.js": "/Portfolio-V2/static/js/main.c2bf16a5.js",
+    "main.js": "/Portfolio-V2/static/js/main.6b952158.js",
+    "static/media/Produce-Pal.png": "/Portfolio-V2/static/media/Produce-Pal.4fff8815b8fcc4a32832.png",
     "static/media/Social-Network-API.PNG": "/Portfolio-V2/static/media/Social-Network-API.108739a1a5164f68c549.PNG",
     "static/media/ECommerce.PNG": "/Portfolio-V2/static/media/ECommerce.9b031504935b84eba37e.PNG",
     "static/media/PlayDate.PNG": "/Portfolio-V2/static/media/PlayDate.84e24030f5996593a830.PNG",
-    "static/media/Employee-Tracker.PNG": "/Portfolio-V2/static/media/Employee-Tracker.16e294de7fb2dc2cd36f.PNG",
     "static/media/Lee_Claire_Resume.docx": "/Portfolio-V2/static/media/Lee_Claire_Resume.5af06910943a968ef686.docx",
     "static/media/Lee_Claire_Resume.pdf": "/Portfolio-V2/static/media/Lee_Claire_Resume.b38c347d4e6f28d206c5.pdf",
     "static/media/profile-img.jpg": "/Portfolio-V2/static/media/profile-img.30813415d2749273bd77.jpg",
@@ -20,10 +20,10 @@
     "static/media/washtapeWide.png": "/Portfolio-V2/static/media/washtapeWide.ff82b520fdabdcb3af12.png",
     "index.html": "/Portfolio-V2/index.html",
     "main.b622b5ea.css.map": "/Portfolio-V2/static/css/main.b622b5ea.css.map",
-    "main.c2bf16a5.js.map": "/Portfolio-V2/static/js/main.c2bf16a5.js.map"
+    "main.6b952158.js.map": "/Portfolio-V2/static/js/main.6b952158.js.map"
   },
   "entrypoints": [
     "static/css/main.b622b5ea.css",
-    "static/js/main.c2bf16a5.js"
+    "static/js/main.6b952158.js"
   ]
 }
