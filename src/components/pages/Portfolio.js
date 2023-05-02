@@ -5,7 +5,7 @@ import SocialNetworkAPI from '../../images/projectScreenshots/Social-Network-API
 import PlayDate from '../../images/projectScreenshots/PlayDate.PNG'
 import InterestingTechBlog from '../../images/projectScreenshots/IT-Blog.PNG'
 import ECommerce from '../../images/projectScreenshots/ECommerce.PNG'
-import ProducePal from '../../images/projectScreenshots/Produce-Pal.PNG'
+import ProducePal from '../../images/projectScreenshots/Produce-Pal.png'
 
 const projects = [
   // Newest project
@@ -14,7 +14,7 @@ const projects = [
     src: ProducePal,
     imgAlt: "Thumbnail of Produce Pal, an e-commerce site for community supported agricultures to connect between farms and interested customers to reserve a farmer's products.",
     name: "Produce Pal",
-    description: "This project is ",
+    description: "This project is an e-commerce site for community supported agricultures to connect between farms and interested customers to reserve a farmer's products.",
     githubLink: "https://github.com/leeclaire156/Produce-Pal/",
     deployedLink: "https://ppt-1.herokuapp.com/"
   },
