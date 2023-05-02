@@ -5,12 +5,21 @@ import SocialNetworkAPI from '../../images/projectScreenshots/Social-Network-API
 import PlayDate from '../../images/projectScreenshots/PlayDate.PNG'
 import InterestingTechBlog from '../../images/projectScreenshots/IT-Blog.PNG'
 import ECommerce from '../../images/projectScreenshots/ECommerce.PNG'
-import EmployeeTracker from '../../images/projectScreenshots/Employee-Tracker.PNG'
+import ProducePal from '../../images/projectScreenshots/Produce-Pal.PNG'
 
 const projects = [
   // Newest project
   {
     key: 0,
+    src: ProducePal,
+    imgAlt: "Thumbnail of Produce Pal, an e-commerce site for community supported agricultures to connect between farms and interested customers to reserve a farmer's products.",
+    name: "Produce Pal",
+    description: "This project is ",
+    githubLink: "https://github.com/leeclaire156/Produce-Pal/",
+    deployedLink: "https://ppt-1.herokuapp.com/"
+  },
+  {
+    key: 1,
     src: JATE,
     imgAlt: "Thumbnail of JATE, the text editor PWA in it's browser form",
     name: "Just Another Text Editor PWA",
@@ -19,7 +28,7 @@ const projects = [
     deployedLink: "https://jate-lee-claire-156.herokuapp.com/"
   },
   {
-    key: 1,
+    key: 2,
     src: SocialNetworkAPI,
     imgAlt: "Thumbnail of Demo Video for Social Network API",
     name: "Social Network API",
@@ -28,7 +37,7 @@ const projects = [
     deployedLink: "https://drive.google.com/file/d/1l4HxoSLraysc5bvxBl-rg5Fd5SjFOH2w/view"
   },
   {
-    key: 2,
+    key: 3,
     src: PlayDate,
     imgAlt: "Thumbnail of PlayDate homepage, with recommended parks and local event cards made by other users.",
     name: "PlayDate",
@@ -37,7 +46,7 @@ const projects = [
     deployedLink: "https://boiling-temple-57076.herokuapp.com/"
   },
   {
-    key: 3,
+    key: 4,
     src: InterestingTechBlog,
     imgAlt: "Thumbnail of Interesting Tech Blog homepage with blog posts from other users.",
     name: "Interesting Tech Blog",
@@ -46,7 +55,7 @@ const projects = [
     deployedLink: "https://interesting-tech-blog.herokuapp.com/"
   },
   {
-    key: 4,
+    key: 5,
     src: ECommerce,
     imgAlt: "Thumbnail of Demo Video for E-Commerce Back End",
     name: "E-Commerce Back End",
@@ -55,15 +64,15 @@ const projects = [
     deployedLink: "https://drive.google.com/file/d/1_f5dkOjbTo1rSzolt0RRD8hyyWr05-bj/view"
   },
   // Oldest project
-  {
-    key: 5,
-    src: EmployeeTracker,
-    imgAlt: "Thumbnail of Demo Video for Employee Tracker content management system",
-    name: "Employee Tracker",
-    description: "This project is a command-line application that functions as a content management system (CMS), able to manage a company's employee database.",
-    githubLink: "https://github.com/leeclaire156/Employee-Tracker",
-    deployedLink: "https://drive.google.com/file/d/1N7DE3uk6BgSCyI6HEmMhzYurrts2tkeV/view"
-  },
+  // {
+  //   key: 6,
+  //   src: EmployeeTracker,
+  //   imgAlt: "Thumbnail of Demo Video for Employee Tracker content management system",
+  //   name: "Employee Tracker",
+  //   description: "This project is a command-line application that functions as a content management system (CMS), able to manage a company's employee database.",
+  //   githubLink: "https://github.com/leeclaire156/Employee-Tracker",
+  //   deployedLink: "https://drive.google.com/file/d/1N7DE3uk6BgSCyI6HEmMhzYurrts2tkeV/view"
+  // },
 ];
 
 export default function Portfolio() {
