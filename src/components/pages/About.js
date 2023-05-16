@@ -16,6 +16,9 @@ export default function About() {
             <br></br>
             <br></br>
             This site was inspired by my old Hayden McNeil's carbon copy lab notebooks and scrap booking with Washi tape. All the icons were drawn by me with my Huion drawing tablet and a program called Paint Tool SAI.
+            <br></br>
+            <br></br>
+            If you'd like to see my work and contact me, my GitHub profile is www.github.com/leeclaire156, and my email is lee.claire156@gmail.com.
           </p>
         </div>
         <div className='tapedImg'>

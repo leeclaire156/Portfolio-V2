@@ -203,6 +203,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * Setting error messages to position absolute to keep appearance from shifting other elements credit to [Kaivosukeltaja](https://stackoverflow.com/users/196838/kaivosukeltaja) on StackOverflow:<br></br>https://stackoverflow.com/questions/34064722/displaying-error-message-without-moving-elements-located-under
 
+* Card flip animation credit to [W3Schools](https://www.w3schools.com/):<br></br>https://www.w3schools.com/howto/howto_css_flip_card.asp
+
+* Index Card CSS styling credit to [Teddy Zetterlund](https://codepen.io/teddyzetterlund) from [CodePen](https://codepen.io/):<br></br>https://codepen.io/teddyzetterlund/pen/YPjEzP
+
 
 ## Questions
 
